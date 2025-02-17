@@ -1,5 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 body {
   font-family: "Kanit";
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-/* Start coding here */
+.container {
+  display: flex;
+
+  position: relative;
+  background-color: white;
+  padding: 5px;
+}
+
+.box {
+  position: absolute;
+  bottom: 8px;
+  left: 12px;
+  color: white;
+}
+
+.tag {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  color: white;
+  background-color: grey;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+img {
+  border-radius: 10px;
+}
