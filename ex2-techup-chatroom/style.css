@@ -1,1 +1,123 @@
-/* Start coding here */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+ height: 100vh;
+ font-size: 15px;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+ 
+h1{
+    background-color: grey;
+    
+ }
+ section{
+    position: relative;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+ }
+ .green{
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    background-color: green;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+ }
+
+ .grey {
+    position: absolute;
+    right: 5px;
+    top: 80px;
+    background-color: grey;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .emoji {
+    position: absolute;
+    right: 5px;
+    top: 140px;
+    background-color: grey;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .grey-emoji{
+    position: absolute;
+    left: 5px;
+    top: 200px;
+    background-color: grey;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .grey-emoji-2{
+    position: absolute;
+    left: 5px;
+    top: 260px;
+    background-color: grey;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .green-tail{
+    width: 30px;
+    height: 40px;
+    background-color: green;
+    border-radius: 50px;
+    position: absolute;
+    right: 5px;
+    top: 6px;
+ }
+ .white-tail{
+    width: 35px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    right:5px;
+    top: 5px;
+    outline-style: none;
+ }
+ .X{
+    width: 20px;
+    height: 20px;
+    background-color: darkgray;
+    border-radius: 10px;
+    position: absolute;
+    right: 0px;
+    top: 75px;
+    color: white;
+ }
